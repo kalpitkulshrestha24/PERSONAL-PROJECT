@@ -3,7 +3,7 @@ import pandas as pd
 # --- 1️⃣ Input Layer (Now from CSV) ---
 def get_student_data(filename):
     """Read student data from CSV file"""
-    df = pd.read_csv(filename)
+    df = pd.read_csv(r"K:\SMU August 2025\CS611-G1-Machine Learning Engineering\Personal Project\student.csv")
     return df
 
 # --- 2️⃣ Processing Layer ---
